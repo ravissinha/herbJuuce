@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>mZeun</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/header_menu.css" rel="stylesheet">
+</head>
+
+<body ng-app="mZeun">
+<div class="logo">
+<a title="mazone" href="">
+  <img alt="mazone" src="image/products_intro_img.jpg" />
+</a>
+</div>
+<div class="menu-wrap">
+
+<nav class="menu">
+  <ul class="clearfix">
+    <li><a href="#Stores"> Stores </a></li>
+    <li><a href="#Orders"> Online Order </a></li>
+    <li><a href="#">Products<span class="arrow">&#9660;</span></a>
+
+      <ul class="sub-menu">
+        <li><a href="#">Herbal Juice</a></li>
+        <li><a href="#">Pickle</a></li>
+      </ul>
+    </li>
+    <li><a href="#progress">About Us </a></li>
+    <li><a href="#progress">Reviews</a></li>
+    <li><a href="#Login">Login / SignUp</a></li>
+  </ul>
+</nav>
+</div>
+
+<div class="view">
+<p>
+<div ng-view></div>
+</p>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
