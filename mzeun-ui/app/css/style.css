@@ -381,3 +381,18 @@ p.change_link{
 	height: 90px;
 	background: transparent;
 }
+
+
+/*!
+ * Extend Bootstrap v2.3.1 to provide cell alignment (doh)
+ *
+ */
+.table td.tdRight {
+  text-align: right;
+}
+.table td.tdCenter {
+  text-align: center;
+}
+.table-nonfluid {
+   width: auto;
+}

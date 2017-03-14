@@ -20,6 +20,10 @@ mZeun.config(['$routeProvider',
             templateUrl: 'view/progressView.html',
             controller: 'ProgressViewController'
         }).
+        when('/cart',{
+        templateUrl: 'htmls/shoppingCart.htm',
+        controller:   storeController
+        }).
         otherwise({
             redirectTo: '/Stores'
         });
